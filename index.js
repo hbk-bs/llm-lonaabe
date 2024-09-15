@@ -23,13 +23,17 @@
  * <script type="module" src="index.js"></script>
  */
 
+
+
 // import the wrapper class
+
+import ollama from 'https://esm.sh/ollama/browser';
 import { LLM } from './llm.js';
 
 // create an instance of the class
 // you need to insert the run url for your val.town openai api
 // @ff6347 will instruct you on how to get this
-
+const host = "https://lonaabe-classicalorangesilverfish.web.val.run/";
 const llm = new LLM({
   host: '<https://lonaabe-openai_api.web.val.run/>',
 });
