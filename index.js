@@ -35,7 +35,7 @@ import { LLM } from './llm.js';
 // @ff6347 will instruct you on how to get this
 const host = "https://lonaabe-classicalorangesilverfish.web.val.run/";
 const llm = new LLM({
-  host: '<https://lonaabe-openai_api.web.val.run/>',
+  host: 'https://lonaabe-openai_api.web.val.run/',
 });
 
 // get the button#run element from the index.html
